@@ -1,1 +1,0 @@
-# animal_triplets_2
