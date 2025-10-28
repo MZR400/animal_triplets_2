@@ -509,6 +509,7 @@ function createTrialSequence(numRandom, numCheck, numValidation) {
 const createTrial = {
     type: jsPsychImageButtonResponse,
     stimulus: jsPsych.timelineVariable('stimulus'),
+    prompt: "Choose the item that is most similar based on size.",
     choices: function() {
         return [
             jsPsych.timelineVariable('choice1'),
