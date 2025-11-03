@@ -31,7 +31,7 @@ const jsPsych = initJsPsych({
 const timeline = [];
 const secret_code = jsPsych.randomization.randomID(8);
 const urlvar = jsPsych.data.urlVariables();
-const filename = `michelle_animal_triplets_thesis_withPrompt_circleFirst_` + urlvar + `.csv`; // CHANGE THIS BETWEEN VERSIONS
+const filename = `michelle_animal_triplets_thesis_withPrompt_circleFirst_` + urlvar.workerId + `.csv`; // CHANGE THIS BETWEEN VERSIONS
 
 
 // Save data configuration
